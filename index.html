@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="http://aframe.io/releases/0.8.0/aframe.min.js"></script>
+        <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+    </head>
+    <body>
+        <a-scene class="fullscreen" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="">
+            <a-entity position="0 1.5 0" rotation="-90 0 0">
+                <a-box color="#4cc3d9" position="-0.8162495739698195 0.5 -3.0466837889543785" rotation="0 23.565285619683255 0" material=""
+                    geometry=""></a-box>
+                <a-sphere color="#ef2d5e" position="0 1.191736571847941 -4.785119056367815" scale="1.1943924441522413 1.1943924441522413 1.1943924441522413"
+                    material="" geometry=""></a-sphere>
+                <a-cylinder color="#ffc65d" position="1.1313561076534617 0.5668378184580265 -2.8649728990123027" scale="0.4426795389624657 1.160472684651193 0.4426795389624657"
+                    material="" geometry=""></a-cylinder>
+                <a-plane color="#7bc8a4" width="4" height="4" position="0 0 -4" rotation="-90 180 -180" material="side:double" geometry=""></a-plane>
+                <a-entity text="value:School of Net;color:#000000;align:center;width:21;negate:false;side:double" position="0 0.4362056844612432 -2.222486479677261"
+                    scale="0.9679300973677261 0.9600322685525657 0.9600322685525657"></a-entity>
+                <a-sky color="#ececec" rotation="0 6.206371497670026 0" material="" geometry=""></a-sky>
+            </a-entity>
+            <a-marker-camera preset="hiro"></a-marker-camera>
+        </a-scene>
+    </body>
+</html>
